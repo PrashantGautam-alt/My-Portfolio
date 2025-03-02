@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Gautam | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Arial", sans-serif;
+            text-align: center;
+            color: #ddd;
+            margin: 0;
+            padding: 0;
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        .video-background video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .container {
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #ff9800;
+            margin-bottom: 10px;
+        }
+        h3 {
+            color: #bbb;
+            font-style: italic;
+            font-size: 1.2em;
+        }
+        .intro {
+            font-size: 1.3em;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+        img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+            margin: 15px 0;
+        }
+        .about {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .about ul {
+            list-style: none;
+            padding: 0;
+        }
+        .about li {
+            background: rgba(255, 255, 255, 0.2);
+            margin: 5px auto;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 1.1em;
+        }
+        .highlight {
+            color: #ff9800;
+            font-weight: bold;
+        }
+        .highlight-skill {
+            color: #4caf50;
+            font-weight: bold;
+        }
+        .quote {
+            font-size: 1.2em;
+            font-style: italic;
+            color: #ccc;
+            margin-top: 15px;
+        }
+        .connect a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: 0.3s;
+        }
+        .connect a:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source src="33.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <div class="container">
+        <h3>Hey there, welcome to my space!</h3>
+        <h1>I'm Prashant Gautam</h1>
+        <img src="./profile.jpeg" alt="Prashant Gautam">
+        
+        <p class="intro">
+            A curious mind, a problem solver, and a lifelong learner.  
+            I love breaking down complex ideas,  
+            exploring the world of tech & business,  
+            and telling stories that matter.  
+        </p>
+
+        <div class="about">
+            <h2>What I Do 🚀</h2>
+            <ul>
+                <li>🎓 Studying at <span class="highlight">IIT Bombay-Industrial Engineering & OR</span></li>
+                <li>💡 Passionate about <span class="highlight-skill">problem-solving</span>, <span class="highlight-skill">critical thinking</span>, and <span class="highlight-skill">decision-making</span></li>
+                <li>💻 Learning <span class="highlight-skill">Web Development</span> & <span class="highlight-skill">Programming</span> from scratch</li>
+                <li>📖 Obsessed with reading, writing, and self-improvement</li>
+                <li>🎥 Soft skills & learning</li>
+                <li>🚀 Exploring <span class="highlight-skill">entrepreneurship</span> & <span class="highlight-skill">storytelling</span></li>
+            </ul>
+        </div>
+
+        <p class="quote">
+            "Learning about myself.  
+            Learning about the world.  
+            Trying new things that excite me."  
+        </p>
+
+        <div class="connect">
+            <h2>Let's Connect 🌍</h2>
+            <a href="./Connect.html">📞 Contact Me</a>
+        </div>
+    </div>
+</body>
+</html>
